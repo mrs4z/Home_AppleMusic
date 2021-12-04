@@ -11,6 +11,10 @@
 		F8375278275BD109004C5225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375277275BD109004C5225 /* ContentView.swift */; };
 		F837527A275BD10B004C5225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8375279275BD10B004C5225 /* Assets.xcassets */; };
 		F837527D275BD10B004C5225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F837527C275BD10B004C5225 /* Preview Assets.xcassets */; };
+		F8375288275C0E11004C5225 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375287275C0E11004C5225 /* LibraryView.swift */; };
+		F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375289275C12EE004C5225 /* LibraryEditView.swift */; };
+		F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528B275C1721004C5225 /* LibraryMainView.swift */; };
+		F837528E275C1E01004C5225 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528D275C1E01004C5225 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F8375277275BD109004C5225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8375279275BD10B004C5225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F837527C275BD10B004C5225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8375287275C0E11004C5225 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F8375289275C12EE004C5225 /* LibraryEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryEditView.swift; sourceTree = "<group>"; };
+		F837528B275C1721004C5225 /* LibraryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryMainView.swift; sourceTree = "<group>"; };
+		F837528D275C1E01004C5225 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				F8375277275BD109004C5225 /* ContentView.swift */,
 				F8375279275BD10B004C5225 /* Assets.xcassets */,
 				F837527B275BD10B004C5225 /* Preview Content */,
+				F8375287275C0E11004C5225 /* LibraryView.swift */,
+				F8375289275C12EE004C5225 /* LibraryEditView.swift */,
+				F837528B275C1721004C5225 /* LibraryMainView.swift */,
+				F837528D275C1E01004C5225 /* PlayerView.swift */,
 			);
 			path = AppleMusic;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8375278275BD109004C5225 /* ContentView.swift in Sources */,
+				F8375288275C0E11004C5225 /* LibraryView.swift in Sources */,
+				F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */,
+				F837528E275C1E01004C5225 /* PlayerView.swift in Sources */,
+				F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */,
 				F8375276275BD109004C5225 /* AppleMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
