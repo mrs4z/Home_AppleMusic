@@ -15,6 +15,8 @@
 		F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375289275C12EE004C5225 /* LibraryEditView.swift */; };
 		F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528B275C1721004C5225 /* LibraryMainView.swift */; };
 		F837528E275C1E01004C5225 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528D275C1E01004C5225 /* PlayerView.swift */; };
+		F8375290275C284A004C5225 /* LibraryEditRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528F275C284A004C5225 /* LibraryEditRow.swift */; };
+		F8375292275C2932004C5225 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375291275C2932004C5225 /* Structs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		F8375289275C12EE004C5225 /* LibraryEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryEditView.swift; sourceTree = "<group>"; };
 		F837528B275C1721004C5225 /* LibraryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryMainView.swift; sourceTree = "<group>"; };
 		F837528D275C1E01004C5225 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		F837528F275C284A004C5225 /* LibraryEditRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryEditRow.swift; sourceTree = "<group>"; };
+		F8375291275C2932004C5225 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				F8375289275C12EE004C5225 /* LibraryEditView.swift */,
 				F837528B275C1721004C5225 /* LibraryMainView.swift */,
 				F837528D275C1E01004C5225 /* PlayerView.swift */,
+				F837528F275C284A004C5225 /* LibraryEditRow.swift */,
+				F8375291275C2932004C5225 /* Structs.swift */,
 			);
 			path = AppleMusic;
 			sourceTree = "<group>";
@@ -149,11 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8375292275C2932004C5225 /* Structs.swift in Sources */,
 				F8375278275BD109004C5225 /* ContentView.swift in Sources */,
 				F8375288275C0E11004C5225 /* LibraryView.swift in Sources */,
 				F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */,
 				F837528E275C1E01004C5225 /* PlayerView.swift in Sources */,
 				F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */,
+				F8375290275C284A004C5225 /* LibraryEditRow.swift in Sources */,
 				F8375276275BD109004C5225 /* AppleMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

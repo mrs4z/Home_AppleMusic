@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct LibraryEditView: View {
+    @State private var items: [Category] = getItems()
+    @State private var selection = Set<Category>()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(selection: $selection) {
+            ForEach(items, id: \.self) { item in
+                LibraryEditRow(item: item)
+                    .listRowBackground(self.isSelected(item: item) ? Color(UIColor.systemGray5) : Color.clear)
+            }
+            .onMove(perform: move)
+        }
+        .environment(\.editMode, Binding.constant(EditMode.active))
+        .listStyle(.plain)
+    }
+    
+    func isSelected(item: Category) -> Bool {
+        return selection.contains(item)
+    }
+
+    func move(from source: IndexSet, to destination: Int) {
+        items.move(fromOffsets: source, toOffset: destination)
     }
 }
 

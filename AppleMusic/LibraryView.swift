@@ -15,24 +15,26 @@ struct LibraryView: View {
                 ZStack {
                     ScrollView(.vertical) {
                         if isEdit {
-                            LibraryEditView()
+                            VStack {
+                                LibraryEditView()
+                            }
+                            .frame(width: geometry.size.width)
+                            .frame(minHeight: geometry.size.height)
                         } else {
                             VStack {
                                 LibraryMainView()
                             }
                             .frame(width: geometry.size.width)
                             .frame(minHeight: geometry.size.height)
-                            
                         }
-                        
                     }
                     .navigationTitle("Медиатека")
                     .navigationBarItems(trailing:
-                                            Button(action: {
-                        isEdit = !isEdit
-                    }, label: {
-                        Text(isEdit ? "Править" : "Готово")
-                    }))
+                        Button(action: {
+                            isEdit = !isEdit
+                        }, label: {
+                            Text(!isEdit ? "Править" : "Готово")
+                        }))
                     PlayerView()
                         .offset(x: 0, y: (geometry.size.height / 2) - 38)
                 }
