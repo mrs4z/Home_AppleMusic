@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LibraryEditView: View {
-    @State private var items: [Category] = getItems()
-    @State private var selection = Set<Category>()
+    @State private var items: [LibraryCategory] = getItemsLibrary()
+    @State private var selection = Set<LibraryCategory>()
     
     var body: some View {
         List(selection: $selection) {
@@ -23,7 +23,7 @@ struct LibraryEditView: View {
         .listStyle(.plain)
     }
     
-    func isSelected(item: Category) -> Bool {
+    func isSelected(item: LibraryCategory) -> Bool {
         return selection.contains(item)
     }
 
