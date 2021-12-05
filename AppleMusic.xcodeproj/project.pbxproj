@@ -20,6 +20,7 @@
 		F8375298275D0095004C5225 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375297275D0095004C5225 /* RadioView.swift */; };
 		F837529A275D06E5004C5225 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375299275D06E5004C5225 /* Radio.swift */; };
 		F837529C275D0949004C5225 /* RadioPromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837529B275D0949004C5225 /* RadioPromo.swift */; };
+		F837529E275D16ED004C5225 /* RadioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837529D275D16ED004C5225 /* RadioList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		F8375297275D0095004C5225 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		F8375299275D06E5004C5225 /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
 		F837529B275D0949004C5225 /* RadioPromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPromo.swift; sourceTree = "<group>"; };
+		F837529D275D16ED004C5225 /* RadioList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				F8375297275D0095004C5225 /* RadioView.swift */,
 				F837529B275D0949004C5225 /* RadioPromo.swift */,
+				F837529D275D16ED004C5225 /* RadioList.swift */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				F8375288275C0E11004C5225 /* LibraryView.swift in Sources */,
 				F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */,
 				F837529C275D0949004C5225 /* RadioPromo.swift in Sources */,
+				F837529E275D16ED004C5225 /* RadioList.swift in Sources */,
 				F837528E275C1E01004C5225 /* PlayerView.swift in Sources */,
 				F837529A275D06E5004C5225 /* Radio.swift in Sources */,
 				F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */,

@@ -12,6 +12,8 @@ struct RadioView: View {
         NavigationView {
             ScrollView {
                 RadioPromo()
+                Divider()
+                RadioList()
             }
             .navigationTitle("Радио")
         }

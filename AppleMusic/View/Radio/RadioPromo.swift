@@ -39,7 +39,7 @@ struct RadioPromo: View {
                     .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 0))
                 }
             }
-            .padding(EdgeInsets(top: 20, leading: 8, bottom: 0, trailing: 0))
+            .padding(EdgeInsets(top: 20, leading: 8, bottom: 20, trailing: 0))
         }
     }
 }
