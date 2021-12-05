@@ -17,6 +17,9 @@
 		F837528E275C1E01004C5225 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528D275C1E01004C5225 /* PlayerView.swift */; };
 		F8375290275C284A004C5225 /* LibraryEditRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837528F275C284A004C5225 /* LibraryEditRow.swift */; };
 		F8375292275C2932004C5225 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375291275C2932004C5225 /* Library.swift */; };
+		F8375298275D0095004C5225 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375297275D0095004C5225 /* RadioView.swift */; };
+		F837529A275D06E5004C5225 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8375299275D06E5004C5225 /* Radio.swift */; };
+		F837529C275D0949004C5225 /* RadioPromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837529B275D0949004C5225 /* RadioPromo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		F837528D275C1E01004C5225 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		F837528F275C284A004C5225 /* LibraryEditRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryEditRow.swift; sourceTree = "<group>"; };
 		F8375291275C2932004C5225 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F8375297275D0095004C5225 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		F8375299275D06E5004C5225 /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		F837529B275D0949004C5225 /* RadioPromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPromo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		F8375293275CFF40004C5225 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F8375296275D0082004C5225 /* Radio */,
 				F837528D275C1E01004C5225 /* PlayerView.swift */,
 				F8375294275CFF47004C5225 /* Library */,
 			);
@@ -105,8 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				F8375291275C2932004C5225 /* Library.swift */,
+				F8375299275D06E5004C5225 /* Radio.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F8375296275D0082004C5225 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				F8375297275D0095004C5225 /* RadioView.swift */,
+				F837529B275D0949004C5225 /* RadioPromo.swift */,
+			);
+			path = Radio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +200,11 @@
 				F8375278275BD109004C5225 /* ContentView.swift in Sources */,
 				F8375288275C0E11004C5225 /* LibraryView.swift in Sources */,
 				F837528A275C12EE004C5225 /* LibraryEditView.swift in Sources */,
+				F837529C275D0949004C5225 /* RadioPromo.swift in Sources */,
 				F837528E275C1E01004C5225 /* PlayerView.swift in Sources */,
+				F837529A275D06E5004C5225 /* Radio.swift in Sources */,
 				F837528C275C1721004C5225 /* LibraryMainView.swift in Sources */,
+				F8375298275D0095004C5225 /* RadioView.swift in Sources */,
 				F8375290275C284A004C5225 /* LibraryEditRow.swift in Sources */,
 				F8375276275BD109004C5225 /* AppleMusicApp.swift in Sources */,
 			);
