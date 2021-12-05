@@ -8,27 +8,30 @@
 import SwiftUI
 
 struct RadioPromo: View {
+    let promoItems = getItemsPromo()
     let rows = [
         GridItem(.flexible(minimum: 200, maximum: 200))
     ]
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows) {
-                ForEach(0..<5) { index in
+                ForEach(promoItems, id: \.id) { item in
                     VStack(alignment: .leading) {
-                        Text("Эксклюзив")
+                        Text(item.label.about)
                             .font(.system(size: 12).weight(.bold))
                             .foregroundColor(Color.gray)
                             .textCase(.uppercase)
                         Spacer()
-                        Text("Коллекция радиошоу Beats 1")
+                        Text(item.title)
                             .font(.system(size: 20).weight(.semibold))
                         Spacer()
-                        Text("Новая подборка, которую ты заслужил")
+                        Text(item.about)
                             .font(.system(size: 20))
                             .foregroundColor(Color.gray)
+                            .frame(height: 15)
+                            .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
                         
-                        Image("Image")
+                        Image(item.image)
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 320, height: 220)
