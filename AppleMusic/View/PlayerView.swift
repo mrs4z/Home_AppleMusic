@@ -29,8 +29,16 @@ struct PlayerView: View {
                 Spacer()
                 HStack {
                     Image(systemName: "play.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 30, height: 20)
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 10))
                     Image(systemName: "forward.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 30, height: 30)
                         .foregroundColor(Color(UIColor.systemGray2))
+                        
                 }
             }
             .padding()
