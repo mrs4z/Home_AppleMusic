@@ -12,7 +12,6 @@ struct SearchView: View {
 
     var body: some View {
         NavigationView {
-            
                 SearchReadingView(textSearch: $searchText)
                     .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Артисты, песни, тексты и др.")
                     .navigationTitle("Поиск")

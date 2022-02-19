@@ -33,12 +33,12 @@ struct RadioList: View {
                             VStack(alignment: .leading) {
                                 Text(item.title)
                                     .font(.system(size: 16).bold())
-                                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
+                                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                                 Text(item.about)
                                     .font(.system(size: 14))
                                     .foregroundColor(.gray)
                             }
-                            .frame(width: 230, alignment: .leading)
+                            .frame(width: 250, alignment: .leading)
                         }
                         Divider()
                     }

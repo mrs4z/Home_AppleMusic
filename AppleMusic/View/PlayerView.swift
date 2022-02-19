@@ -10,7 +10,7 @@ import SwiftUI
 struct PlayerView: View {
     var body: some View {
         ZStack {
-            Color(UIColor.systemGray6).ignoresSafeArea()
+//            Color(UIColor.systemGray6).ignoresSafeArea()
             HStack {
                 HStack {
                     ZStack {
@@ -23,7 +23,7 @@ struct PlayerView: View {
                     }
                     Text("Не исполняется")
                         .offset(x: 10, y: 0)
-                        .foregroundColor(Color(UIColor.systemGray2))
+                        .foregroundColor(Color(UIColor.black))
                     
                 }
                 Spacer()
@@ -32,18 +32,21 @@ struct PlayerView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 30, height: 20)
+                        .foregroundColor(Color(UIColor.black))
                         .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 10))
                     Image(systemName: "forward.fill")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 30, height: 30)
-                        .foregroundColor(Color(UIColor.systemGray2))
+                        .foregroundColor(Color(UIColor.darkGray))
                         
                 }
             }
             .padding()
         }
         .frame(minHeight: 60, maxHeight: 60)
+        .foregroundColor(.white)
+        .background(.ultraThinMaterial)
     }
 }
 
