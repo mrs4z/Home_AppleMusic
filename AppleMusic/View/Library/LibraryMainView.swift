@@ -14,7 +14,12 @@ struct LibraryMainView: View {
                 .fontWeight(.bold)
                 .font(.system(size: 25))
                 .padding(.bottom, 5)
-            Text("Здесь появится купленная Вами в iTunes Store музыка.")
+            Text("Здесь появится купленная Вами в")
+                .font(.system(size: 18))
+                .multilineTextAlignment(.center)
+                .foregroundColor(.gray)
+            Text("iTunes Store музыка.")
+                .font(.system(size: 18))
                 .multilineTextAlignment(.center)
                 .foregroundColor(.gray)
         }

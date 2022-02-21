@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct LibraryEditRow: View {
-    private var category: Category
+    private var category: LibraryCategory
     
-    init(item: Category) {
+    init(item: LibraryCategory) {
         category = item
     }
     
